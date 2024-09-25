@@ -29,6 +29,10 @@
 <!--Home Section Design-->
 <section class="home" id="home">
     <div class="home-content">
+        <div class="home-img" >
+            <img src="km1001.png" alt="kmiller">
+            
+        </div>
         <h3>Welcome, Im</h3>
              <h1>Kory Miller</h1>
                  <h3>And im the owner of <span>Kory Miller Cabinets</span></h3>
@@ -46,10 +50,7 @@
 <a href="#" class="btn">Download CV</a>
 
 </div>
-<div class="home-img" >
-    <img src="km1001.png" alt="kmiller">
-    
-</div>
+
 </section>
 
 <!--About section-->
@@ -244,17 +245,19 @@ Portfolio
 
 <section class="contact" id="contact">
     <h2 class="heading">contact <span>Me</span></h2>
-   <form action="#">
+   <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="baf54140-c586-462e-a6f9-1cd3ace2b678">
     <div class="input-box">
         <input type="text" placeholder="Full Name">
         <input type="email" placeholder="Email Address">
     </div>
     <div class="input-box">
+        
         <input type="number" placeholder="Phone Number">
         <input type="email" placeholder="Email Subject">
     </div>
     <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-    <input type="text" value="Send Message" class="btn">
+    <button type="submit">submiit</button>
    </form>
 
 </section>
